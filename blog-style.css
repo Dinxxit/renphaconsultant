@@ -1,0 +1,290 @@
+body{
+ margin:0;
+ padding:0;
+ background-color:whitesmoke;
+ font-weight:bold;   
+}
+
+
+.loader-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	backdrop-filter: blur(5px);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+	z-index: 999;
+}
+.loader {
+	width: 100px;
+	height: 100px;
+}
+.circle {
+	fill: none;
+	stroke: #3498db;
+	stroke-width: 8;
+	stroke-linecap: round;
+	transform-origin: 50px 50px;
+	animation: loader 1.5s ease-in-out infinite;
+}
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+		stroke-dasharray: 0 283;
+	}
+	50% {
+		transform: rotate(180deg);
+		stroke-dasharray: 241.5 241.5;
+	}
+	100% {
+		transform: rotate(360deg);
+		stroke-dasharray: 0 483;
+	}
+}
+.hero-section {
+    
+    color: white;
+    padding: 100px 0;
+}
+.bg-img{
+    background:url('images/header-5.jpg') no-repeat center center;
+
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width:100%;
+    background-color:whitesmoke;
+    box-shadow:5px 2px 4px #000;
+    position:fixed;
+    z-index:1;
+}
+nav img{
+    margin:3px 0 10px 5px;
+}
+.nav-btn{
+    background-color:#00628f;
+    margin:25px 10px 0 0;
+    width:auto;
+    height:3rem;
+    border:2px solid #00628f;
+    border-radius:15px;
+    float:right;
+    align-items:center;
+    justify-content:center;
+}
+.nav-btn i{
+    color:#fff;
+    position:aboslute;
+    align-items:center;
+    justify-content:center;
+    margin-top:-3px;
+    padding:0;
+    font-size:40px;
+}
+.offcanvas{
+    background-color:whitesmoke;
+}
+.offcanvas a{
+    color:#00628f;
+    padding:20px;
+    list-style-type:none;
+    text-decoration:none;
+}
+.offcanvas li:active{
+    color:#fff;
+    background-color:#00628f;
+    width:active;
+    height:5v;
+}
+.offcanvas li:after{
+    color:#fff;
+    background-color:#00628f;
+}
+.offcanvas ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.offcanvas li{
+    color:#00628f;
+    font-weight:bold;
+    
+}
+.offcanvas li:hover{
+    color:#fff;
+    background-color:#00628f;
+    width:100%;
+    height:auto;
+    border:1px solid #fff;
+    border-radius:5px;
+}
+
+main p{
+    color:#000;
+}
+/*top destination countries offered by renpha*/
+marquee{
+    color:#fff;
+    background-color:#00628f;
+    animation:move 20s infinite linear;
+}
+@keyframes move{
+    0% {transform:translateX(0);}
+    100%{transform:translateX(4px);}
+}
+#topstudy-main{
+    width:98%;
+    height:auto;
+    margin-top:7rem;
+    margin-left:20px;
+}
+.front-text{
+    background-color:#fff;
+}
+.first-container{
+    width:100%;
+    height:130vh;
+    overflow-y:auto;
+}
+.row{
+    width:100%;
+    height:auto;
+}
+.card{
+    margin-top:1rem;
+    border:2px solid gray;
+}
+h1{
+    color:darkred;
+}
+h3{
+    color:#00628f;
+    background-color:whitesmoke;
+}
+.s-card{
+    top:-1rem;
+}
+
+
+
+
+
+/*global requirement page in the blog page*/
+#global-main{
+    width:98%;
+    margin:0 auto;
+    color:#001f3f;
+    background-color:whitesmoke;
+}
+
+h4{
+    color:#001f3f;
+}
+small{
+    color:#3a6d8c;
+}
+.gray-bg{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    background-color:;
+}
+.gray-bg img{
+    padding:15px;
+    width:98%;
+    height:60vh;
+    object-fit:fill;
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+/*exciting scholarship for international students*/
+
+#scholarship-hero{
+    margin:0 auto;
+    width:100%;
+}
+#scholarship-hero h1{
+    margin-top:5rem;
+}
+#scholarship-hero .row{
+    margin:0 auto;
+    width:90%;
+    
+}
+#scholarship-hero img{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+footer{
+    width:100%;
+    margin-top:20px;
+}
+footer h5,p{
+    color:#fff;
+}
+footer i{
+    font-size:30px;
+    color:#fff;
+    margin:5px;
+    padding:5px;
+    border-radius:50px;
+    border:2px solid #ffffff;
+}
+
+footer input{
+    
+    height:40px;
+}
+footer button{
+    color:#fff;
+    background-color:#00628f;
+    height:40px;
+    font-weight:bold;
+}
+footer btn{
+    color:red;
+}
+footer ul a{
+    text-align:center;
+    text-decoration:none;
+    align-items:center;
+    justify-content:center;
+}
+footer ul li{
+    color:#00628f;
+    background-color:#ffffff;
+    font-weight:bold;
+    list-style-type:none;
+}
+footer ul li:hover{
+    color:#fff;
+    background-color:#00628f;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}

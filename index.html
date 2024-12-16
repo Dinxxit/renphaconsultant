@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home-Renpha consulting</title>
+	<link rel="icon" href="images/logos/icon-1.jpg" type="image/icon type">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="loader-container" id="loaderContainer">
+        <svg class="loader" viewBox="0 0 100 100">
+            <circle class="circle" cx="50" cy="50" r="45"/>
+        </svg>
+    </div>
+	<nav>
+		<a href="index.html"><img src="images/logos/logo1.png"></a>
+		<button class="nav-btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+	</nav>
+	<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+	  <div class="offcanvas-header">
+	    <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="images/logos/logo1.png"></h5>
+	    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	  </div>
+	  <div class="offcanvas-body">
+	    <ul>
+	    	<a href="index.html"><li>Home</li></a>
+            <a href="service.html"><li>Our Service</li></a>
+            <a href="about.html"><li>About</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+			<a href="#faq"><li>FAQ</li></a>
+            <a href="blog.html"><li>Blog</li></a>
+            <a href="review.html"><li>Review</li></a>
+	    </ul>
+	  </div>
+	</div>
+	
+
+	
+	<!--------main------>
+
+    <header id="main-hero">
+    	<div id="carouselExampleCaptions" class="carousel slide">
+		    <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		    </div>
+		  	<div class="carousel-inner">
+			    <div class="carousel-item active">
+			      	<img src="images/coverpage/header-1.jpg" class="d-block w-100" alt="...">
+			      	<div class="carousel-caption d-none d-md-block">
+			      		<div class="front-text">
+					      	<h1>Discover the world with US</h1>
+					    </div>
+				    </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/coverpage/header-4.jpg" class="d-block w-100" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <div class="front-text">
+			      	<h1>Discover the world with US</h1>
+			    </div>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/coverpage/header-5.jpg" class="d-block w-100" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <div class="front-text">
+			      	<h1>Discover the world with US</h1>
+			    </div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="control-indicator">
+			 	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+				    <span class="visually-hidden">Previous</span>
+			    </button>
+			    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+			    </button>
+		    </div>
+		</div>
+    </header>
+	
+    <main>
+    	<!---------- our services---------->
+    	<section id="services" class="py-5">
+	        <div class="container">
+	            <h2 class="text-center mb-5">Our Services</h2>
+	            <div class="row g-4">
+	                <div class="col-md-4 fade-in">
+	                    <div class="card h-100">
+	                        <div class="card-body text-center">
+	                            <i class="fas fa-graduation-cap fa-3x mb-3 " style="color:#00618f";></i>
+	                            <h5 class="card-title">Admission Processing</h5>
+	                            <p class="card-text" style="color:#000">Get admission to top universities worldwide</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 fade-in">
+	                    <div class="card h-100">
+	                        <div class="card-body text-center">
+	                            <i class="fas fa-passport fa-3x mb-3" style="color:#00628f"></i>
+	                            <h5 class="card-title">Visit/Tourist Visa</h5>
+	                            <p class="card-text" style="color:#000">Student and visit visa assistance</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 fade-in">
+	                    <div class="card h-100">
+	                        <div class="card-body text-center">
+	                            <i class="fas fa-plane fa-3x mb-3" style="color:#00628f"></i>
+	                            <h5 class="card-title">Flight Booking</h5>
+	                            <p class="card-text" style="color:#000">Book flights to various countries and airports</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <a href="service.html" id="info">
+	        	<button>
+	        		View more
+	        		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blueColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+  					<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg> 
+				</button> 
+	        </a>
+	    </section>
+
+
+
+
+    	<!----------featured destination of places---------->
+    	<section class="featured-destinations py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 fade-in">Featured Destinations <i class="fa-solid fa-tickets-airline fa-beat-fade"></i></h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4 fade-in">
+                        <div class="card destination-card">
+                            <img src="images/canada-1.jpg" class="card-img-top" alt="Paris">
+                            <div class="card-body">
+                                <h5 class="card-title">Canada</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 fade-in">
+                        <div class="card destination-card">
+                            <img src="images/nyc-1.jpg" class="card-img-top" alt="Bali">
+                            <div class="card-body">
+                                <h5 class="card-title">USA</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 fade-in">
+                        <div class="card destination-card">
+                            <img src="images/london.jpg" class="card-img-top" alt="New York">
+                            <div class="card-body">
+                                <h5 class="card-title">UK</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 fade-in">
+                        <div class="card destination-card">
+                            <img src="images/paris-1.jpg" class="card-img-top" alt="Tokyo">
+                            <div class="card-body">
+                                <h5 class="card-title">France</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="top-study.html" id="info">
+		        	<button>
+		        		View more
+		        		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+	  					<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg> 
+					</button> 
+		        </a>
+            </div>
+        </section>
+        
+
+        
+	<div class="stat-section">
+        <div class="row ">
+        	<div class="col-md-7">
+        		<img src="images/coverpage/front-1.png">
+        	</div>
+			<div class="col-md-4">
+				<div class="company-stat">
+					<h1>Company Statistics</h1>
+					<div class="stat-container">
+				        <div class="stats-container">
+				            <div class="stat-card">
+				                <h2>Clients</h2>
+				                <div class="number" data-target="3000">0</div>
+				            </div>
+				            <div class="stat-card">
+				                <h2>Partners</h2>
+				                <div class="number" data-target="500">0</div>
+				            </div>
+				            <div class="stat-card">
+				                <h2>Approvals</h2>
+				                <div class="number" data-target="10000">0</div>
+				            </div>
+				            <div class="stat-card">
+				                <h2>Ongoing Projects</h2>
+				                <div class="number" data-target="750">0</div>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+		<section id="why-us">
+			<div class="center-why">
+				<div class="container-mt-2 fade-in">
+					<div class="row">
+	            		<div class="col-md-7 fade-in">
+		                   	<h2 class="text-center mb-5">Why Choose us</h2>
+		                </div>
+			       		<div class="col-md-5">
+		                   	<p class="text-center mb-5">At Renpha consulting, we offer a range of services to make your travel experience seamless and enjoyable. From securing admissions to international institutions to assisting with visa applications and booking flights, our expert team is here to help you in every step of the way</p>
+		                </div>
+		            </div>
+				</div>
+				<div class="container" >
+	               <div class="row g-4">
+		                <div class="col-md-4 fade-in">
+		                    <div class="card">
+		                        <img src="images/support-1.jpg" class="card-img-top" alt="USA">
+		                        <div class="card-body">
+		                            <h5 class="card-title">Expert Visa Assistance</h5>
+		                            <p class="card-text">Our team offers comphrensive support for obtaining student and visit visa, making the process smooth and hassle-free.</p>
+		                            <a href="service.html" id="info">Learn More</a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-md-4 fade-in">
+		                    <div class="card">
+		                        <img src="images/traveller-3.jpg" class="card-img-top" alt="UK">
+		                        <div class="card-body">
+		                            <h5 class="card-title">Personalized Travel Plans</h5>
+		                            <p class="card-text">We create customized travel itineraries tailored to your perference, ensuring a unique and memorable experience.</p>
+		                            <a href="service.html" id="info">Learn More</a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-md-4 fade-in">
+		                    <div class="card">
+		                        <img src="images/coverpage/header-2.jpg" class="card-img-top" alt="Australia">
+		                        <div class="card-body">
+		                            <h5 class="card-title">Seamless Flight Bookings</h5>
+		                            <p class="card-text">We handle all our flight booking needs, ensuring you get the best deals and stress-free travel experience.</p>
+									<a href="service.html" id="info">Learn More</a>                          
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+	        	</div>
+	        </div>
+		</section>
+
+
+
+		<br>
+		<br>
+
+
+		<section id="review-container">
+        	<h2 >Client Experience</h2>
+        	<p><b>Discover what our client say</b> about their journeys with us. Their stories inspire and guild the future travellers.</p>
+
+        	<div class="container">
+               <div class="row g-4">
+	                <div class="col-md-3 slide-in">
+	                    <div class="card">
+	                        <div class="star-rating">
+	                        	<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+	                        </div>
+	                        <div class="card-body">
+	                            <h5 class="card-title">Praise Ijeomah</h5>
+	                            <em>Business Traveller</em>
+	                            <p class="card-text">I had a seamless experience booking my flight andd accommodations. Highly recommend their personalized service.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 fade-in">
+	                    <div class="card">
+	                         <div class="star-rating">
+	                        	<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+	                        </div>
+	                        <div class="card-body">
+	                            <h5 class="card-title">Vera Edike</h5>
+	                            <em>Family Traveller</em>
+	                            <p class="card-text">We had an amazing family vacation planned by Ranpha. They understood our needs perfectly and delivered.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 fade-in">
+	                    <div class="card">
+	                         <div class="star-rating">
+	                        	<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+	                        </div>
+	                        <div class="card-body">
+	                            <h5 class="card-title">Choice Ukpe</h5>
+	                            <em>Graduate Student</em>
+	                            <p class="card-text">Renpha consulting made my study abroad dreams come true, their guidance through the visa process was invaluable.</p>                          
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 fade-in">
+	                    <div class="card">
+	                         <div class="star-rating">
+	                        	<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+		                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+	                        </div>
+	                        <div class="card-body">
+	                            <h5 class="card-title">Emmanuel Richmond</h5>
+	                            <em>Adventure Seeker</em>
+	                            <p class="card-text">Renpha consulting helped me explore off-the-beaten-path destinations. Their expertise is unmatched.</p>                          
+	                        </div>
+	                    </div>
+	                </div>
+	            
+	            </div>
+        	</div>
+        </section>
+        
+    </main>
+
+    
+    <div id="faq">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-list">
+            	<div class="faq-item">
+                    <div class="faq-question">
+                        Can you assist with visa applications?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        While we don't directly process visa applications, we can provide guidance on visa requirements for your destination and direct you to the appropriate resources and application procedures.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What services does Renpha Consulting offer?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        Renpha Consulting offers a wide range of services including admission processing, visa processing, tourist visa processing, flight bookings, hotel reservations.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How can I book a trip with Renpha Consulting?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        You can book a trip with us by calling our office, sending an email, or using our online booking system on our website. Our travel experts will guide you through the process and help you plan your perfect trip.
+                    </div>
+                </div>
+                </div>                
+            </div>
+        </div>
+
+
+	<!--------footer section------>
+	  <footer id="contact" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Contact Us</h5>
+                    <p><a href="mail to">Email: Renphaconsulting@gmail.com</a><br>Phone: (+234) 814-4291-4658</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Follow Us</h5>
+                    <a href="https://www.facebook.com/profile.php?id=61551099882398" class="text-white me-2">
+                        <i class="fab fa-facebook fa-beat" style="color: #077ddf;"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/_renphaconsulting?igsh=Yz1jYTk1ODg3Zg==" class="text-white me-2">
+                        <i class="fab fa-instagram fa-beat" style="color: #a71e06;"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Quick links</h5>
+                   <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="about.html"><li>About</li></a>
+                        <a href="service.html"><li>Our services</li></a>
+                        <a href="blog.html"><li>blog</li></a>
+                        <a href="review.html"><li>Review</li></a>
+                   </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-custom" type="submit" style="color:#000; background-color:gold; font-weight:bold">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <p class="text-center mb-0">&copy; 2024 Renpha Consulting. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+	<!-- Bootstrap JS Bundle with Popper -->
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
